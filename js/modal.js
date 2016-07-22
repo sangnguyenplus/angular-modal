@@ -29,7 +29,7 @@ angular.module('app', ['ui.bootstrap'])
     this.alert = function(data, callback) {
         /*begin modal*/
         var modalInstance = $uibModal.open({
-            templateUrl: '/views/alert.html',
+            templateUrl: 'https://sangnguyenplus.github.io/angular-modal/views/alert.html',
             controller: 'modal.alert',
             backdrop: 'static',
             resolve: {
@@ -43,7 +43,7 @@ angular.module('app', ['ui.bootstrap'])
     this.confirm = function(data, callback) {
         /*begin modal*/
         var modalInstance = $uibModal.open({
-            templateUrl: '/views/confirm.html',
+            templateUrl: 'https://sangnguyenplus.github.io/angular-modal/views/confirm.html',
             controller: 'modal.confirm',
             backdrop: 'static',
             resolve: {
