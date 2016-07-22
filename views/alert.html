@@ -1,0 +1,16 @@
+<div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" ng-click="close()" aria-hidden="true">×</button>
+        <h4 class="modal-title custom_align" id="Heading">{{ data.title }}</h4>
+    </div>
+    <div class="modal-body">
+        <div class="alert alert-success" ng-show="{{ data.type == 'success' }}">{{ data.message }}</div>
+        <div class="alert alert-warning" ng-show="{{ data.type == 'warning' }}">{{ data.message }}</div>
+        <div class="alert alert-danger" ng-show="{{ data.type == 'danger' }}">{{ data.message }}</div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-primary pull-right" ng-click="ok()">OK</button>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!-- /.modal-content -->

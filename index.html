@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Modal - AngularJS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div ng-controller="MainController">
+            <div class="wrapper">
+                <h2>Modal - AngularJS</h2>
+                <button class="btn btn-primary" ng-click="showModal('confirm')">Confirm modal</button>
+                <button class="btn btn-info" ng-click="showModal('alert')">Alert modal</button>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="js/ui-bootstrap-tpls-2.0.0.min.js"></script>
+<script src="js/modal.js"></script>
+</body>
+</html>
